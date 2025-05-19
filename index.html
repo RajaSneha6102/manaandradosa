@@ -2,55 +2,178 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mana Andra Dosa</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mana Andhra Dosa</title>
   <link rel="stylesheet" href="index.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <script src="index.js" defer></script>
 </head>
 <body>
+
+  <!-- Header with Navbar -->
   <header>
-    <h1>Mana Andra Dosa</h1>
-    <nav>
-      <ul>
-        <li><a href="#menu">Menu</a></li>
+    <nav class="navbar">
+      <div class="logo">Mana Andhra Dosa</div>
+      <ul class="nav-links">
         <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#gallery">Gallery</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <main>
-    <section id="hero">
-      <h2>Authentic South Indian Taste</h2>
-      <p>Delicious dosas made with love and tradition.</p>
-    </section>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Authentic Andhra Taste, Right at Your Plate!</h1>
+      <a href="#menu" class="btn">View Menu</a>
+    </div>
+  </section>
 
-    <section id="menu">
-      <h2>Our Menu</h2>
-      <ul class="menu-list">
-        <li><strong>Plain Dosa</strong> - ₹60</li>
-        <li><strong>Masala Dosa</strong> - ₹80</li>
-        <li><strong>Paneer Dosa</strong> - ₹100</li>
-        <li><strong>Cheese Dosa</strong> - ₹90</li>
-        <li><strong>Andhra Spicy Dosa</strong> - ₹110</li>
-      </ul>
-    </section>
+  <!-- About -->
+  <section id="about" class="section about">
+  <div class="container">
+    <h2>About Us</h2>
+    <div class="about-flex">
+      <div class="about-img">
+        <img src="images/about.jpg" alt="About Image" />
+      </div>
+      <div class="about-text">
+        <p>Mana Andhra Dosa brings you the spicy, tangy, and crispy flavors of traditional Andhra-style dosas.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <section id="about">
-      <h2>About Us</h2>
-      <p>Mana Andra Dosa brings the authentic flavors of Andhra Pradesh to your plate. From crispy dosas to spicy chutneys, we serve it all with a smile.</p>
-    </section>
 
-    <section id="contact">
+  <!-- Menu -->
+  <section id="menu" class="section menu">
+  <div class="container">
+    <h2>Our Menu</h2>
+    <div class="menu-slider">
+      <div class="menu-items">
+        <!-- 6 items displayed here -->
+        <!-- Repeat this pattern for each menu item -->
+        <div class="menu-item">
+          <img src="images/podi.jpg" alt="Podi Dosa">
+          <h3>Podi Dosa</h3>
+          <p>Spicy podi layered dosa served with chutney</p>
+          <span>₹80</span>
+        </div>
+        <div class="menu-item">
+          <img src="images/ghee-Roast.jpg" alt="Ghee Roast">
+          <h3>Ghee Roast</h3>
+          <p>Crispy dosa roasted with desi ghee</p>
+          <span>₹90</span>
+        </div>
+        <div class="menu-item">
+          <img src="images/masala-dosa.jpeg" alt="Masala Dosa">
+          <h3>Masala Dosa</h3>
+          <p>Classic dosa filled with spiced potato filling</p>
+          <span>₹85</span>
+        </div>
+		<div class="menu-item">
+          <img src="images/podi.jpg" alt="Podi Dosa">
+          <h3>Podi Dosa</h3>
+          <p>Spicy podi layered dosa served with chutney</p>
+          <span>₹80</span>
+        </div>
+        <div class="menu-item">
+          <img src="images/ghee-Roast.jpg" alt="Ghee Roast">
+          <h3>Ghee Roast</h3>
+          <p>Crispy dosa roasted with desi ghee</p>
+          <span>₹90</span>
+        </div>
+        <div class="menu-item">
+          <img src="images/masala-dosa.jpeg" alt="Masala Dosa">
+          <h3>Masala Dosa</h3>
+          <p>Classic dosa filled with spiced potato filling</p>
+          <span>₹85</span>
+        </div>
+      </div>
+      <div class="menu-items">
+        <!-- Next 6 items -->
+        <div class="menu-item">
+          <img src="images/podi.jpg" alt="Podi Dosa">
+          <h3>Podi Dosa</h3>
+          <p>Spicy podi layered dosa served with chutney</p>
+          <span>₹80</span>
+        </div>
+        <div class="menu-item">
+          <img src="images/ghee-Roast.jpg" alt="Ghee Roast">
+          <h3>Ghee Roast</h3>
+          <p>Crispy dosa roasted with desi ghee</p>
+          <span>₹90</span>
+        </div>
+        <div class="menu-item">
+          <img src="images/masala-dosa.jpeg" alt="Masala Dosa">
+          <h3>Masala Dosa</h3>
+          <p>Classic dosa filled with spiced potato filling</p>
+          <span>₹85</span>
+        </div>
+		<div class="menu-item">
+          <img src="images/podi.jpg" alt="Podi Dosa">
+          <h3>Podi Dosa</h3>
+          <p>Spicy podi layered dosa served with chutney</p>
+          <span>₹80</span>
+        </div>
+        <div class="menu-item">
+          <img src="images/ghee-Roast.jpg" alt="Ghee Roast">
+          <h3>Ghee Roast</h3>
+          <p>Crispy dosa roasted with desi ghee</p>
+          <span>₹90</span>
+        </div>
+        <div class="menu-item">
+          <img src="images/masala-dosa.jpeg" alt="Masala Dosa">
+          <h3>Masala Dosa</h3>
+          <p>Classic dosa filled with spiced potato filling</p>
+          <span>₹85</span>
+        </div>
+        <!-- Add total of 6 here -->
+      </div>
+    </div>
+    <div class="slider-controls">
+      <button id="prev">&#10094;</button>
+      <button id="next">&#10095;</button>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Gallery -->
+  <section id="gallery" class="section gallery">
+    <div class="container">
+      <h2>Gallery</h2>
+      <div class="gallery-grid">
+        <img src="images/gallery1.jpg" alt="Gallery Image 1">
+        <img src="images/gallery2.jpg" alt="Gallery Image 2">
+        <img src="images/gallery3.jpg" alt="Gallery Image 3">
+        <img src="images/gallery4.jpg" alt="Gallery Image 4">
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section contact">
+    <div class="container">
       <h2>Contact Us</h2>
-      <p>Email: info@manaandradosa.in</p>
-      <p>Phone: +91 98765 43210</p>
-    </section>
-  </main>
+      <p>Visit us or get in touch for the best dosa experience!</p>
+      <p><strong>Address:</strong> Main Road, Vijayawada, Andhra Pradesh</p>
+      <p><strong>Phone:</strong> +91 98765 43210</p>
+      <p><strong>Email:</strong> contact@manaandhradosa.in</p>
+      <div class="social-icons">
+        <a href="#">Instagram</a> | <a href="#">Facebook</a>
+      </div>
+    </div>
+  </section>
 
-  <footer>
-    <p>&copy; 2025 Mana Andra Dosa. All rights reserved.</p>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Mana Andhra Dosa. All Rights Reserved.</p>
+    </div>
   </footer>
 
-  <script src="index.js"></script>
 </body>
 </html>
